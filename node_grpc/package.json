@@ -1,0 +1,24 @@
+{
+  "name": "node-grpc",
+  "version": "1.0.0",
+  "description": "CRUD with gRPC and Node",
+  "main": "server.js",
+  "scripts": {
+    "start:grpc": "node server.js &",
+    "start": "node index.js"
+  },
+  "author": "bot",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.13",
+    "@grpc/proto-loader": "^0.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "hbs": "^4.1.0",
+    "request": "^2.88.2",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "minimist": ">=1.2.2"
+  }
+}
