@@ -4,7 +4,7 @@ This project is separated in two parts:
 - Server: where gRPC serves the remote calls defined in the proto file
 - Index: Express/Node CRUD the server operations.
 
-In order to run this app, issue in separate command line windows:
+In order to run this app, run these in separate command line windows:
 - Inside application root: `node server.js`
 - Inside application root: `node index.js`
 - Use curls from attack.sh files to access APIs
