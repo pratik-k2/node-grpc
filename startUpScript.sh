@@ -35,7 +35,7 @@ else
     rm -rf node_modules/newrelic/node_modules/@newrelic/security-agent
 fi
 
-# start Ldap Server
+# start client
 node index.js & 
 # start NodeJS application
 node $NR_OPTS server.js
